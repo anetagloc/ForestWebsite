@@ -14,7 +14,7 @@ const reload = browserSync.reload;
 
 const paths = {
 	html: './html/**/*.kit',
-	sass: './src/sass/**/*.scss',
+	sass: './src/scss/**/*.scss',
 	img: './src/img/*',
 	js: './src/js/**/*.js',
 	dist: './dist',
@@ -95,5 +95,5 @@ const mainFunctions = parallel(
 	javaScript,
 	convertImages
 );
-// exports.cleanStuff = cleanStuff;
+exports.cleanStuff = cleanStuff;
 exports.default = series(mainFunctions, startBrowserSync, watchForChanges);
