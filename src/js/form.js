@@ -61,7 +61,7 @@ const checkErrors = () => {
 	const allInputs = document.querySelectorAll('.form-box');
 	let errorCount = 0;
 	allInputs.forEach((el) => {
-		if (el.classList.contains('.error')) {
+		if (el.classList.contains('error')) {
 			errorCount++;
 		}
 	});

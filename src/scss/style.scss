@@ -53,16 +53,18 @@ nav {
 	align-items: center;
 	margin: 10px 10px;
 	padding: 1em 0;
+	text-decoration: none;
+	color: #000;
 	&-img {
+		padding: 2rem;
 		width: 2em;
 		height: 2em;
-		padding: 10px 10px;
 		background-image: url('../img/christmas-tree.svg');
 		background-position: center;
 		background-size: cover;
 	}
 	&-text {
-		font-size: 30px;
+		font-size: 3.5rem;
 	}
 }
 
@@ -98,15 +100,15 @@ nav {
 .section-title {
 	position: relative;
 	margin-bottom: 2em;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
 	color: #488148;
-	letter-spacing: 2px;
+	letter-spacing: .5rem;
 }
 .section-padding {
-	padding: 2rem 1rem 0;
+	padding: 2.5rem 1rem 0;
 }
 
 //contact
@@ -144,15 +146,15 @@ nav {
 	display: grid;
 	grid-column: 2/3;
 	grid-row: 2/3;
-	text-align: center;
 	padding: 1rem;
+	text-align: center;
 }
 .contact-third {
 	display: grid;
 	grid-column: 3/4;
 	grid-row: 2/3;
-	text-align: center;
 	padding: 1rem;
+	text-align: center;
 }
 .contact-title {
 	font-size: 2rem;
@@ -183,6 +185,10 @@ li {
 }
 
 //subpage contact
+
+.form-wrapper{
+	border-radius: 5%;
+}
 .maps {
 	display: flex;
 	justify-content: center;

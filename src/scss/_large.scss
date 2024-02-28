@@ -3,13 +3,13 @@
 @media (min-width: 992px) {
 	//nav
 	.nav-desktop {
+		position: absolute;
+		top: 0;
+		right: 0;
 		display: flex;
 		justify-content: end;
 		align-items: center;
 		flex-wrap: wrap;
-		position: absolute;
-		top: 0;
-		right: 0;
 		cursor: pointer;
 		transition: background-color 0.3s, color 0.3s;
 		.nav-item {
@@ -129,9 +129,9 @@
 	//offers
 	.offers {
 		h1 {
+			margin-bottom: 1em;
 			font-size: 3rem;
 			text-align: center;
-			margin-bottom: 1em;
 		}
 		.section-content {
 			display: flex;

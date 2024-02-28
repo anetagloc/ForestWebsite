@@ -100,9 +100,9 @@
 	//offers
 	.offers {
 		h1 {
+			margin-bottom: 1em;
 			font-size: 1.5rem;
 			text-align: center;
-			margin-bottom: 1em;
 		}
 		.section-content {
 			display: flex;
@@ -148,7 +148,7 @@
 			font-family: $second-font;
 			text-transform: uppercase;
 			text-align: center;
-			border-radius: 8px;
+			border-radius: 5%;
 			transition: background-color 0.3s;
 			&:hover,
 			:focus {

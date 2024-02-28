@@ -4,13 +4,13 @@
 	//nav
 
 	.nav-desktop {
+		position: absolute;
+		top: 0;
+		right: 0;
 		display: flex;
 		justify-content: end;
 		align-items: center;
 		flex-wrap: wrap;
-		position: absolute;
-		top: 0;
-		right: 0;
 		cursor: pointer;
 		transition: background-color 0.3s, color 0.3s;
 		.nav-item {
@@ -83,9 +83,9 @@
 
 	.hero-img-adventure {
 		position: relative;
-		height: 40vh;
 		margin-top: 2em;
 		margin-bottom: 2em;
+		height: 40vh;
 		background-image: url('../img/girl-small.jpg');
 		background-position: center;
 		background-size: cover;
@@ -105,8 +105,8 @@
 	.offers {
 		h1 {
 			font-size: 1.5rem;
-			text-align: center;
 			margin-bottom: 1em;
+			text-align: center;
 		}
 		.section-content {
 			display: flex;
